@@ -1,0 +1,23 @@
+
+while True:
+    city = input("Write a city name: Chicago, New York City or Washington!").lower()
+    if city not in CITY_DATA:
+        print("\nInvalid answer\n")
+        continue   
+    else:
+
+    break
+    
+    INSTEAD OF
+        
+          while True:
+      city = input("Write a city name: Chicago, New York City or Washington!").lower()
+      if city not in ('New York City', 'Chicago', 'Washington'):
+        print("Sorry, I didn't catch that. Try again.")
+        continue
+      else:
+        break
+  
+        
+
+
