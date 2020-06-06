@@ -1,1 +1,15 @@
 
+    while True:
+        get_city = input('\nHello! Let\'s explore some US bikeshare data!\n'
+                 'Would you like to see data for Chicago, New York, or Washington?\n')
+        if get_city.lower() in ('chicago', 'new york', 'washington'):
+            if get_city.lower() == 'chicago':
+                city_filename = chicago
+            elif get_city.lower() == 'new york':
+                city_filename = new_york_city
+            elif get_city.lower() == 'washington':
+                city_filename = washington
+            break
+        print('Enter a valid city name provided in the options')
+
+
