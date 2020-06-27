@@ -1,0 +1,31 @@
+
+print(‘Hola mundo’)
+1
+texto=input('Introduzca un numero: '))
+print(‘Hola mundo’)
+
+
+Para recibir un texto por el usuario, empleamos la función Input
+
+texto=input('Introduzca un numero: '))
+
+
+
+num = int(input('Introduzca un numero: '))
+ifnum % 2 == 0:
+print('Par')
+else:
+print('Impar')
+1
+2
+3
+4
+5
+
+num = int(input('Introduzca un numero: '))
+ifnum % 2 == 0:
+print('Par')
+else:
+print('Impar')
+
+
